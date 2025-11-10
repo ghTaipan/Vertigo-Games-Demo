@@ -23,7 +23,7 @@ public class UI_MainMenu : MonoBehaviour
 
     void OnPlayButtonPressed()
     {
-        SceneLoader.LoadScene(Scene.Gameplay);
+        SceneLoader.LoadScene(E_Scene.Gameplay);
     }
 
     void OnQuitButtonPressed()

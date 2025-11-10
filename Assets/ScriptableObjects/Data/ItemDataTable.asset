@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9622b04e0d85d9c489f88c4eae2e4c54, type: 3}
+  m_Name: ItemDataTable
+  m_EditorClassIdentifier: 
+  _regularItems:
+  - _itemName: Bomb
+    _itemIcon: {fileID: 21300000, guid: fea9e8f5ff8c86142b456e92ffe35560, type: 3}
+    _itemCount: 1
+    _bShowText: 0
+  - _itemName: Cash
+    _itemIcon: {fileID: 21300000, guid: 675ca915f6a19ff489a06d31f2285e35, type: 3}
+    _itemCount: 10
+    _bShowText: 1
+  - _itemName: Gold
+    _itemIcon: {fileID: 21300000, guid: 0ede2cc23daf1f347b117fa69b5463a3, type: 3}
+    _itemCount: 5
+    _bShowText: 1
+  - _itemName: Bronze Chest
+    _itemIcon: {fileID: 21300000, guid: cd696da4fb339a446ba339de59d859ca, type: 3}
+    _itemCount: 3
+    _bShowText: 1
+  - _itemName: Silver Chest
+    _itemIcon: {fileID: 21300000, guid: 1bc8ff4b200eba64a880e4d4c72bfa31, type: 3}
+    _itemCount: 2
+    _bShowText: 1
+  - _itemName: Tier 1 Shotgun
+    _itemIcon: {fileID: 21300000, guid: 41ec87ff38c9f414dbf17d4c3b833ae8, type: 3}
+    _itemCount: 3
+    _bShowText: 1
+  - _itemName: Tier 2 MLE
+    _itemIcon: {fileID: 21300000, guid: 0a99c81466dd4b34aaa7935fe6146ed6, type: 3}
+    _itemCount: 1
+    _bShowText: 1
+  - _itemName: Tier 2 Rifle
+    _itemIcon: {fileID: 21300000, guid: a54dce6cef73bac489baa1896fd8422a, type: 3}
+    _itemCount: 2
+    _bShowText: 1
+  _specialItems:
+  - _itemName: Cash
+    _itemIcon: {fileID: 21300000, guid: 675ca915f6a19ff489a06d31f2285e35, type: 3}
+    _itemCount: 100
+    _bShowText: 1
+  - _itemName: Gold
+    _itemIcon: {fileID: 21300000, guid: 0ede2cc23daf1f347b117fa69b5463a3, type: 3}
+    _itemCount: 50
+    _bShowText: 1
+  - _itemName: Tier 3 SMG
+    _itemIcon: {fileID: 21300000, guid: 91b022fb306623e41843f5e414eb6ef7, type: 3}
+    _itemCount: 1
+    _bShowText: 1
+  - _itemName: Tier 3 Shotgun
+    _itemIcon: {fileID: 21300000, guid: ab3fe96e6f4bcd04381f7358f0581146, type: 3}
+    _itemCount: 1
+    _bShowText: 1
+  - _itemName: Tier 3 Sniper
+    _itemIcon: {fileID: 21300000, guid: 721f2dcd507f1264e973c2f067f9c00b, type: 3}
+    _itemCount: 1
+    _bShowText: 1
+  - _itemName: Gold Chest
+    _itemIcon: {fileID: 21300000, guid: d95ca55c71ed8df4baf3242cc9f1498e, type: 3}
+    _itemCount: 2
+    _bShowText: 1
+  - _itemName: Super Chest
+    _itemIcon: {fileID: 21300000, guid: ff777f78579be334985fef5fcb43dd3d, type: 3}
+    _itemCount: 1
+    _bShowText: 1
+  _regularItemCountLevelMult: 0.2
+  _regularItemRandomRange: 5
+  _specialItemCountByLevelMult: 0.1
+  _specialItemRandomRange: 2
