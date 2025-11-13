@@ -7,6 +7,14 @@ public struct ItemData
     public Sprite _itemIcon;
     public int _itemCount;
     public bool _bShowText;
+
+    public ItemData(string name, Sprite icon = default, int count = 0, bool inShowText = true)
+    {
+        _itemName = name;
+        _itemIcon = icon;
+        _itemCount = count;
+        _bShowText = inShowText;
+    }
 }
 
 [CreateAssetMenu(menuName = "ScritpableObjects/Data/Item Data Table")]

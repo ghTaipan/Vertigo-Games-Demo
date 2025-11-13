@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wheel Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 051e1fca2d3763d4e99dad0aea677aa8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0ede2cc23daf1f347b117fa69b5463a3, type: 3}
+  - {fileID: 21300000, guid: 0a99c81466dd4b34aaa7935fe6146ed6, type: 3}
+  - {fileID: 21300000, guid: cd696da4fb339a446ba339de59d859ca, type: 3}
+  - {fileID: 21300000, guid: 675ca915f6a19ff489a06d31f2285e35, type: 3}
+  - {fileID: 21300000, guid: fea9e8f5ff8c86142b456e92ffe35560, type: 3}
+  - {fileID: 21300000, guid: ff777f78579be334985fef5fcb43dd3d, type: 3}
+  - {fileID: 21300000, guid: f5e53388cb3f3c54bb4554df6e64c255, type: 3}
+  - {fileID: 21300000, guid: 12c85d9a5f6983a46812c59072cbfdb7, type: 3}
+  - {fileID: 21300000, guid: 1bc8ff4b200eba64a880e4d4c72bfa31, type: 3}
+  - {fileID: 21300000, guid: 978a516b1d15c9f4d891bf2722928d0e, type: 3}
+  - {fileID: 21300000, guid: 96e5c2cbed673554f87c8e2925931aeb, type: 3}
+  - {fileID: 21300000, guid: 9264bdcbd006255489408c950a53db43, type: 3}
+  - {fileID: 21300000, guid: 91b022fb306623e41843f5e414eb6ef7, type: 3}
+  - {fileID: 21300000, guid: d95ca55c71ed8df4baf3242cc9f1498e, type: 3}
+  - {fileID: 21300000, guid: a54dce6cef73bac489baa1896fd8422a, type: 3}
+  - {fileID: 21300000, guid: 7f84a3ad4f1234049831fcdc6e181dad, type: 3}
+  - {fileID: 21300000, guid: 721f2dcd507f1264e973c2f067f9c00b, type: 3}
+  - {fileID: 21300000, guid: ab3fe96e6f4bcd04381f7358f0581146, type: 3}
+  - {fileID: 21300000, guid: 41ec87ff38c9f414dbf17d4c3b833ae8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_icon_gold
+  - UI_Icon_Renders_tier2_mle
+  - UI_icon_chest_Bronze_nolight
+  - UI_icon_cash
+  - ui_icon_render_cons_grenade_m67
+  - UI_icon_chest_super_nolight
+  - ui_spin_golden_indicator
+  - ui_spin_bronze_indicator
+  - UI_icon_chest_silver_nolight
+  - ui_spin_silver_base
+  - ui_spin_golden_base
+  - ui_spin_bronze_base
+  - UI_Icon_Renders_tier3_smg
+  - UI_icon_chest_gold_nolight
+  - UI_Icon_Renders_tier2_rifle
+  - ui_spin_silver_indicator
+  - UI_Icon_Renders_tier3_sniper
+  - UI_Icon_Renders_tier3_shotgun
+  - UI_Icon_Renders_tier1_shotgun
+  m_RenderDataMap: {}
+  m_Tag: Wheel Sprite Atlas
+  m_IsVariant: 0

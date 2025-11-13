@@ -25,24 +25,24 @@ MonoBehaviour:
     _itemIcon: {fileID: 21300000, guid: 0ede2cc23daf1f347b117fa69b5463a3, type: 3}
     _itemCount: 5
     _bShowText: 1
+  - _itemName: Tier 1 Shotgun
+    _itemIcon: {fileID: 21300000, guid: 41ec87ff38c9f414dbf17d4c3b833ae8, type: 3}
+    _itemCount: 4
+    _bShowText: 1
+  - _itemName: Tier 2 Rifle
+    _itemIcon: {fileID: 21300000, guid: a54dce6cef73bac489baa1896fd8422a, type: 3}
+    _itemCount: 2
+    _bShowText: 1
+  - _itemName: Tier 2 MLE
+    _itemIcon: {fileID: 21300000, guid: 0a99c81466dd4b34aaa7935fe6146ed6, type: 3}
+    _itemCount: 1
+    _bShowText: 1
   - _itemName: Bronze Chest
     _itemIcon: {fileID: 21300000, guid: cd696da4fb339a446ba339de59d859ca, type: 3}
     _itemCount: 3
     _bShowText: 1
   - _itemName: Silver Chest
     _itemIcon: {fileID: 21300000, guid: 1bc8ff4b200eba64a880e4d4c72bfa31, type: 3}
-    _itemCount: 2
-    _bShowText: 1
-  - _itemName: Tier 1 Shotgun
-    _itemIcon: {fileID: 21300000, guid: 41ec87ff38c9f414dbf17d4c3b833ae8, type: 3}
-    _itemCount: 3
-    _bShowText: 1
-  - _itemName: Tier 2 MLE
-    _itemIcon: {fileID: 21300000, guid: 0a99c81466dd4b34aaa7935fe6146ed6, type: 3}
-    _itemCount: 1
-    _bShowText: 1
-  - _itemName: Tier 2 Rifle
-    _itemIcon: {fileID: 21300000, guid: a54dce6cef73bac489baa1896fd8422a, type: 3}
     _itemCount: 2
     _bShowText: 1
   _specialItems:

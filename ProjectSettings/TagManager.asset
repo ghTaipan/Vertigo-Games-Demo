@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: UI
+    uniqueID: 1759799309
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI_Transition
+    uniqueID: 618160605
+    locked: 0
+  - name: Video
+    uniqueID: 3460537187
+    locked: 0
+  - name: VFX
+    uniqueID: 3906029939
     locked: 0

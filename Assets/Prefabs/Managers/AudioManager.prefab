@@ -50,3 +50,7 @@ MonoBehaviour:
     _sceneMusic:
     - {fileID: 11400000, guid: e685c57a9ec93cb49ba0e6715f3c72d9, type: 2}
     - {fileID: 11400000, guid: 3152311bb12d36643bed94b49f33a042, type: 2}
+    _fadeOutDecrement: 0.05
+  _uiDefaultSFX:
+  - {fileID: 11400000, guid: 15af45c1e80cd2d428af30d11253e563, type: 2}
+  - {fileID: 11400000, guid: cd50ff6f28c8f4d459b32dae329cb854, type: 2}

@@ -17,7 +17,7 @@ public class SceneLoader : MonoBehaviour
     public static SceneLoader Instance { get; set; }
 
     private static E_Scene currentScene;
-    public static SceneChangedDelegate onSceneChanged;
+    public SceneChangedDelegate onSceneChanged;
 
     private void Awake()
     {

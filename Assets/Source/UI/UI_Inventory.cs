@@ -12,11 +12,17 @@ public class UI_Inventory : MonoBehaviour
 
     public void Start()
     {
+        StartCoroutine(CreateInventorySlots());
+    }
+
+    IEnumerator CreateInventorySlots()
+    {
+        yield return new WaitForSeconds(0.2f);
         KeyValuePair<string, ItemData>[] pairArray = Inventory.Instance.ItemMap.ToArray();
         for (int i = 0; i < _slotCount; ++i)
         {
-            GameObject childObject = Instantiate(_inventorySlotPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            childObject.transform.SetParent(_inventorySlots.transform);
+            GameObject childObject = Instantiate(_inventorySlotPrefab, new Vector3(0, 0, 0), Quaternion.identity, _inventorySlots.transform);
+            //childObject.transform.localScale = Vector3;
 
             if (i < pairArray.Length)
             {
@@ -25,4 +31,5 @@ public class UI_Inventory : MonoBehaviour
             }
         }
     }
+
 }
